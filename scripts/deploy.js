@@ -9,7 +9,7 @@ async function main() {
 
     await gptMembership.deployed();
 
-    console.log("GPTMembership: ", gptMembership.address)
+    console.log("GPTMembership address: ", gptMembership.address)
 }
 
 main().catch((error) => {
